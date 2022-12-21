@@ -1,21 +1,28 @@
 
 import java.awt.event.KeyEvent;
 
-
-
+/**
+ *
+ * @author Jorge Coronil Villalba
+ */
 public class CrearPartido extends javax.swing.JFrame
 {
    
     
     private Apuesta v;
     
-   
+    /**
+     *Permite crear un partido nuevo
+     */
     public CrearPartido() 
     {
         initComponents();
     }
 
-   
+    /**
+     *
+     * @param ventana Método que llama a la clase Apuesta para abrir la ventana con los datos
+     */
     public CrearPartido(Apuesta ventana) 
     {
         initComponents();
@@ -70,6 +77,10 @@ public class CrearPartido extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     *
+     * @param p Parametro tipo cadena que permite añadir un partido nuevo
+     */
     public void añadePartido(String p)
     {
         v.partidoNuevo(p);
@@ -88,7 +99,10 @@ public class CrearPartido extends javax.swing.JFrame
         }
     }//GEN-LAST:event_tPartidoKeyPressed
 
-    
+    /**
+     *
+     * @param args Parametro void de tipo cadena 
+     */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

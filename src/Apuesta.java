@@ -233,7 +233,7 @@ public class Apuesta extends javax.swing.JFrame {
     
     /**
      *
-     * @param args Muestra la pantalla principal para los partidos
+     * @param args Parametro tipo void que muestra la pantalla principal para los partidos
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
